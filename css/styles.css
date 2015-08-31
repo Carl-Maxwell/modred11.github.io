@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter:400);
 
 html, body {
-	height:100%;
+    height:100%;
     background:center no-repeat fixed url('/assets/itinerant_longview.png');
     background-size: cover;
     color:#444;
@@ -49,11 +49,11 @@ a:hover {
 }
 
 .icon-bar {
-	background-color:#fff;
+    background-color:#fff;
 }
 
 .navbar-trans {
-	background-color:#2b2b2b;
+    background-color:#2b2b2b;
     color:#cdcdcd;
     border-width:0;
 }
@@ -64,14 +64,14 @@ a:hover {
 }
 
 .navbar-trans li>a:focus,.navbar-trans li.active {
-	background-color:#f44d3c;
-	color:#333;
+    background-color:#f44d3c;
+    color:#333;
 }
 
 .navbar-trans li>a:hover {
-	background-color:#f44d3c;
-	color:#fff;
-	opacity:0.5;
+    background-color:#f44d3c;
+    color:#fff;
+    opacity:0.5;
 }
 
 .navbar-trans a{
@@ -80,10 +80,10 @@ a:hover {
 }
 
 .navbar-trans .form-control:focus {
-	border-color: #eee;
-	outline: 0;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
-	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+    border-color: #eee;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
 }
 
 .scroll-down {
@@ -141,45 +141,54 @@ section {
 }
 
 #skills, #section3 {
-	background-color: rgba(0,0,0,0.7);
-	color:#fff;
-	font-family: 'Bitter', serif;
+    background-color: rgba(0,0,0,0.7);
+    color:#fff;
+    font-family: 'Bitter', serif;
 }
 
 #section4 {
-	background-color: #f6f6f6;
-	color:#444;
+    background-color: #f6f6f6;
+    color:#444;
 }
 
 #projects {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 #section3 {
-	background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.9);
 }
 
 #section5 {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 #section6 {
     background-color: #eee;
-	min-height:130px;
-	padding-top:40px;
-	padding-bottom:40px;
+    min-height:130px;
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
-#section7 {
-	background-color: #f44d3c;
-	color: #f6f6f6;
-	min-height:130px;
-	padding-top:40px;
-	padding-bottom:40px;
+#social {
+    background-color: #f44d3c;
+    color: #f6f6f6;
+    min-height:130px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+#social a {
+    color: initial;
+}
+
+#social a:hover {
+    color: white;
+		text-decoration: none;
 }
 
 footer {
-	background-color:#2b2b2b;
+    background-color:#2b2b2b;
     color:#ddd;
     min-height:100px;
     padding-top:20px;
@@ -193,5 +202,5 @@ footer .nav>li>a {
 
 footer .nav>li>a:hover {
     background-color:transparent;
-	color:#fff;
+    color:#fff;
 }
